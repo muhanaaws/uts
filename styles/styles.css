@@ -1,0 +1,36 @@
+:root {
+  --primary: #6f046e;
+  --secondary: #ffffff;
+  --tertiary: #ffcd00;
+}
+
+.primary-bg {
+  background-color: var(--primary) !important;
+}
+.secondary-bg {
+  background-color: var(--secondary) !important;
+}
+.tertiary-bg {
+  background-color: var(--tertiary) !important;
+}
+
+.primary-text {
+  color: var(--primary) !important;
+}
+.secondary-text {
+  color: var(--secondary) !important;
+}
+
+.primary-btn {
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
